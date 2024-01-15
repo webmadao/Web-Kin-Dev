@@ -1,5 +1,5 @@
 body {
-    background-image: url("images/background-image.jpg");
+    background-image: url("images/background-image.avif");
     background-size: cover;
     color:green;
     font-family: 'Raleway', sans-serif;
@@ -87,13 +87,10 @@ h1 {
      
     }
 
-    main h2:hover{
-        zoom: 20%;
-    }
+   
 
 
 .partage{
-
     display: flex;
     flex-direction: column;
     flex-wrap: wrap;
@@ -154,6 +151,8 @@ h1 {
     flex-direction: column;
     gap: 20px;
 }
+
+
 
 #closemodal{
     background-color: white;
