@@ -3,6 +3,114 @@
     <meta charset="UTF-8" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <title>Document</title>
+    <meta name="description" content="Une carte de visite pour les partenaires de la société de diagnostic immobilier">
+    <link rel="preload" href="style.css" as="style">
+    <meta name="Hello-Diagnostic-carte-de-visite" content="Template to start HTML">
+    <link
+      rel="stylesheet"
+      href="https://cdnjs.cloudflare.com/ajax/libs/animate.css/4.1.1/animate.min.css"
+    />
+    <link
+      rel="stylesheet"
+      href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.1/css/all.min.css"
+    />
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="stylesheet" href="style.css" />
+
+    <!-- Meta pour Instagram -->
+	  <meta property="og:title" content="Hello-Diagnostic">
+	  <meta property="og:description" content="La carte de viste de la société de diagnostic l'immobilier">
+	  <meta property="og:image" content="./images/logo.avif">
+	  <meta property="og:url" content="https://webmadao.github.io/Hello-Diagnostic-carte-de-visite/">
+
+    <!-- Meta pour twitter-->
+    <meta name="twitter:card" content="summary_large_image">
+    <meta name="twitter:title" content="Hello-Diagnostic">
+    <meta name="twitter:description" content="La carte de viste de la société de diagnostic l'immobilier">
+    <meta name="twitter:image" content="./images/logo.avif">
+
+
+
   </head>
-  <body></body>
+  <body>
+    <main>
+      <img
+        src="./images/logo.avif"
+        id="logo"
+        class="animate__animated animate__slideInDown"
+        alt="logo en forme de maison rouge et d'un téléphone blanc"
+      />
+      <h1>Découvrez la confiance immobilière avec Hello Diagnostic.</h1>
+      <img
+        src="./images/header-image.avif"
+        class="animate__animated animate__slideInDown"
+        id="image-femme"
+        alt="une dame souriante tenanat à la main une maison en maquette "
+      />
+      <h2>Hello Diagnostic</h2>
+
+      <ul>
+        <li>
+          <a href="tel:+33650499651">
+            <i class="fa-solid fa-mobile-screen-button"></i>
+           +33 6.50.49.96.51
+          </a>
+        </li>
+        <li>
+          <i class="fa-regular fa-envelope"></i>
+          <a href="mailto:Diagnostic-Hello@gmail.com">
+            Diagnostic-Hello@gmail.com
+          </a>
+        </li>
+      </ul>
+       
+      <section class="partage">
+        <button id="openmodal">
+          <i class="fa-solid fa-square-share-nodes"></i> Partager
+        </button>
+
+        <dialog id="modal">
+          <div class="in-modal">
+          <img src="./images/qrcode.avif"  alt="qrcode"/>
+          <button id="closemodal"><strong>Fermer</strong></button>
+          </div>
+        </dialog>
+        <ul class="animate__animated animate__slideInUp" >
+          <li
+            class="share-gplus"
+            data-url="https://webmadao.github.io/Hello-Diagnostic-carte-de-visite/"
+          >
+          <i class="fa-brands fa-square-google-plus"></i>
+          </li>
+
+          <li
+            class="share-linkedin"
+            data-url="https://webmadao.github.io/Hello-Diagnostic-carte-de-visite/"
+          >
+          <i class="fa-brands fa-linkedin"></i>
+         
+
+          <li
+            class="share-facebook"
+            data-url="https://webmadao.github.io/Hello-Diagnostic-carte-de-visite/"
+          >
+            <i class="fa-brands fa-facebook"></i>
+          
+
+          <li
+            class="share-twitter"
+            data-url="https://webmadao.github.io/Hello-Diagnostic-carte-de-visite/"
+          >
+          <i class="fa-brands fa-square-twitter"></i></i>
+          </li>
+
+          <li class="share-whatsapp" data-url="https://webmadao.github.io/Hello-Diagnostic-carte-de-visite/">
+          <i class="fa-brands fa-square-whatsapp"></i>
+        </ul>
+      </section>
+    </main>
+    <script src="script.js"></script>
+    
+  </body>
 </html>
+
